@@ -56,3 +56,13 @@
 .footerLinks:active {
   color: #81878d;
 }
+
+@media only screen and (min-width: 767px) {
+  .boss-prof {
+    position: absolute;
+    top: -400px;
+  }
+  .temp-space {
+    display: block !important;
+  }
+}
